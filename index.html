@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelly Millet — Signal & Shift</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HERO -->
+<section class="hero">
+  <div class="hero-image"></div>
+
+  <div class="container">
+    <h1 class="hero-title">
+      Shift happens.
+      <span class="hero-subline">
+        Read the road. Match the speed. Make the shift.
+      </span>
+    </h1>
+
+    <p class="tagline">
+      Curious adventures, dogs, horses, big trucks, and the systems that help us navigate change.
+    </p>
+
+    <a class="cta" href="images/halo-trail.jpeg">Read on Substack →</a>
+  </div>
+</section>
+
+  <!-- OPENING -->
+  <section class="section">
+    <div class="container narrow">
+      <p>
+        I'm gathering stories. Noticing patterns. Writing what I'm learning as I go.
+        <br><br>
+        Dogs and horses. Adventures. Systems. The kind of moments that look ordinary until they aren't.
+        <br><br>
+        Not everything needs a lesson. Sometimes a story is enough.
+      </p>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <section class="section alt">
+    <div class="container">
+      <div class="grid" id="pillars">
+
+        <details class="toggle-card">
+          <summary>Dogs, horses, and partnership</summary>
+          <div class="card-content">
+            <p>
+              Trust, communication, grief, joy. The kind of leadership you learn when another life depends on how you show up.
+            </p>
+          </div>
+        </details>
+
+        <details class="toggle-card">
+          <summary>Curious adventures</summary>
+          <div class="card-content">
+            <p>
+              Roads, shows, trails, detours. The moments you don’t plan for—and the ones that turn into stories later.
+            </p>
+          </div>
+        </details>
+
+        <details class="toggle-card">
+          <summary>How I operate</summary>
+          <div class="card-content">
+            <p>
+              Systems for thinking, choosing, and shifting. Learning to sort signal from noise.
+            </p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNAL & SHIFT -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>Signal &amp; Shift</h2>
+      <p>
+        Before you shift, you have to read the road.
+        <br><br>
+        Match your speed.
+        <br>
+        Feel the load.
+        <br>
+        Watch the grade.
+        <br>
+        Understand the conditions.
+        <br><br>
+        Life works the same way.
+        <br><br>
+        This is about noticing what’s actually happening—and learning how to shift.
+      </p>
+    </div>
+  </section>
+
+  <!-- SUBSTACK -->
+  <section class="section alt">
+    <div class="container narrow center">
+      <h2>Read the writing</h2>
+      <p>
+        I write once a week. Real stories. Real conditions. What I’m learning as I go.
+      </p>
+
+      <a class="cta" href="https://substack.com/@shellymillet">Go to Substack →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container center">
+
+
+<!-- tiny proof of human -->
+<img src="images/shelly-duncan-selfie.jpeg" id="humanTrigger" class="human-thumb" alt="Shelly">
+
+
+      <p>
+        Curious adventures, dogs, horses, big trucks, and the systems that help us navigate change.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div id="humanModal" class="modal">
+    <div class="modal-content">
+      <p>
+        Yep, I'm real.
+        <br><br>
+        I drive the big truck.
+        <br>
+        The dogs are real.
+        <br>
+        The horses are real.
+        <br><br>
+        The stories are too.
+      </p>
+
+      <a class="cta" href="https://substack.com/@shellymillet">Read on Substack →</a>
+    </div>
+  </div>
+
+  <script>
+    // ✅ Accordion fix (reliable version)
+    const cards = document.querySelectorAll("#pillars details");
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => {
+        cards.forEach(other => {
+          if (other !== card) {
+            other.removeAttribute("open");
+          }
+        });
+      });
+    });
+
+    // ✅ Modal
+    const trigger = document.getElementById("humanTrigger");
+    const modal = document.getElementById("humanModal");
+
+    trigger.addEventListener("click", () => {
+      modal.style.display = "flex";
+    });
+
+    modal.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+  </script>
+
+</body>
+</html>
