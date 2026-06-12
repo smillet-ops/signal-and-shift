@@ -1,95 +1,58 @@
 # Signal & Shift
 
-A quiet entry point to lived stories about dogs, roads, and how we navigate change.
+Signal & Shift is the front door to Shelly Millet's living archive: stories from a beautiful, complicated life about horses, dogs, big trucks, work, memory, and starting again.
 
----
-
-## What this is
-
-This is not where the writing lives.
-
-It is where the writing begins.
-
-This space provides the context, tone, and perspective behind the stories.
-
-The writing itself lives on Substack.
-
----
-
-## What this space does
-
-This is a place to:
-
-- orient  
-- notice  
-- enter the work  
-
-It sets the conditions for the writing rather than containing it.
-
----
-
-## Core idea
+## The Idea
 
 Before you shift, you have to read the road.
 
-- match your speed  
-- feel the load  
-- watch the grade  
-- understand the conditions  
+- Match your speed.
+- Feel the load.
+- Watch the grade.
+- Understand the conditions.
 
 Life works the same way.
 
----
+## What This Site Does
 
-## Tone
+This one-page editorial site introduces Shelly and provides a direct path into her writing on Substack.
 
-The work here is:
+It is designed to:
 
-- experiential, not instructional  
-- observational, not performative  
-- grounded, not optimized  
+- put the writing first
+- preserve photographs and stories as a digital legacy
+- connect memories across different chapters of a life
+- offer grounded hope to anyone who may be suffering
 
-Nothing is written to teach.
+## Featured Stories
 
-Everything is written to notice.
+- The Machine Shop at Sagamore
+- The Road to Halo
+- Wishbones
 
----
+## Built With
 
-## Structure
+- Semantic HTML
+- Responsive CSS
+- Original photography
+- GitHub Pages
 
-This site is a simple static page built with:
+There is no framework, build system, or JavaScript dependency.
 
-- HTML  
-- CSS  
+## Publishing
 
-No frameworks. No build system.  
+The site is published with GitHub Pages from the `main` branch and repository root.
 
-Just enough structure to hold the perspective behind the work.
+Live site:
 
----
+https://smillet-ops.github.io/signal-and-shift/
 
-## Why this exists
+## Writing
 
-To create a grounded entry point into writing that comes from:
+The complete stories live on Substack:
 
-- real moments  
-- real relationships  
-- real change  
+https://substack.com/@shellymillet
 
-And to allow meaning to emerge without being forced or explained.
-
----
-
-## Live site
-
-(Add your GitHub Pages URL here)
-
----
-
-## Notes
-
-This project is intentionally small and will evolve slowly.
-
-Guiding constraint:
+## Guiding Constraint
 
 > Only add what earns its place.
